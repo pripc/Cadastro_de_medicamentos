@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilizacao.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Cadastro de Medicamentos</li>
+            <li>Cadastro de Vacinas</li>
+            <li>Cadastro de Cosméticos</li>
+        </ul>
+    </nav>
+    <header>
+        <div>
+            <img src="images/remedio.svg" width="261px" alt="remédio liquido e cartela de comprimido">
+        </div>
+        <div>
+            <h1>CADASTRO DE MEDICAMENTOS</h1>
+            <h2>Farmácia da Gente</h2>
+        </div>
+
+    </header>
+    <section>
+        <div id="sec-form">
+            <div id="form">
+                <form onsubmit="addMed()"> 
+                    <label for="nomeMed">Nome do medicamento*</label>
+                    <input type="text" required id="medicamento" name="nomeMed" placeholder="BONPRAGRIP">
+    
+                    <label for="qtdMed">Quantidade Disponível*</label>
+                    <input type="text" required id="qtdmedicamento" name="qtdMed" placeholder="100">
+    
+                    <label for="classeMed">Classe do medicamento*</label>
+                    <input type="text" required id="classemedicamento" name="classeMed" placeholder="ANTIBIÓTICO">
+    
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+                                                                                                                        
+            <div id="table">
+                <table id="dataTable">
+                    <tr>
+                        <th>ID</th>
+                        <th>Medicamentos</th>
+                        <th>Quantidade</th>
+                        <th>Classe de Medicamento</th>
+                        <th>Remover</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

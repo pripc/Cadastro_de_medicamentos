@@ -1,0 +1,113 @@
+body{
+    background-color: #F5F5F5;
+    margin:0;
+}
+nav{
+    background-color: #76BEBE;
+    
+}
+nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:0px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    color: white;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 22px;
+}
+nav ul li:hover{
+    color:#CF509C;
+    
+}
+header{
+    text-align: center;
+    background-color: white;
+    color: white;
+    height: auto;
+    font-family: Raleway;
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: center
+    
+    
+}
+header h1{
+    color:#CF509C;
+    font-size:30px;
+    font-weight: 400;
+    padding-top:20px;
+    margin-bottom: 0;
+}
+header h2{
+    color:black;
+    font-size:20px;
+    font-weight: 400;
+    margin-top:0;
+    
+}
+section #sec-form{
+    display:grid;
+    grid-auto-flow: column;
+    
+}
+section form{
+    display:grid;
+    grid-auto-flow: row;
+    margin:30px;
+   
+}
+section label{
+    font-family:Alegreya Sans SC ;
+}
+section input{
+    background-color: rgba(255, 255, 255, 0.57);
+    border: none;
+    border-radius: 10px;
+    height:25px;
+    font-family: Alegreya Sans SC;
+    
+}
+section button{
+    background-color: #76BEBE;
+    border: none;
+    border-radius: 5px;
+    height:30px;
+    color:white;
+    margin-top:20px;
+    font-size:20px;
+    font-weight:700;
+    width:50%;
+    margin-left:65px;
+    cursor:pointer;
+    
+
+}
+table{
+    border-spacing: 0px;
+}
+table th{
+    background-color: #3E3D3D;
+    font-family:Alegreya Sans SC ;
+    color:white;
+    border: 1px solid #767373;
+    min-width: 110px;
+    
+    
+    
+}
+table td{
+    border:1px solid #767373;
+
+}
+div #table{
+    margin:30px;
+}
